@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     port: 7777,
   },
 
-  modules: ["@nuxtjs/tailwindcss", "@vite-pwa/nuxt"],
+  modules: ["@nuxtjs/tailwindcss"],
 
   tailwindcss: {
     config: {
