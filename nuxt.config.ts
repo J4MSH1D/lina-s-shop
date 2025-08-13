@@ -15,7 +15,7 @@ export default defineNuxtConfig({
 
   css: ["./app/assets/css/fons.css"],
 
-  modules: ["@nuxtjs/tailwindcss", "@nuxt/image"],
+  modules: ["@nuxtjs/tailwindcss", "@nuxt/image", "nuxt-swiper"],
 
   tailwindcss: {
     config: {
