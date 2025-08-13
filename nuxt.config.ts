@@ -5,7 +5,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: "Linda's fashion shop",
+      title: "Lina's fashion shop",
     },
   },
 

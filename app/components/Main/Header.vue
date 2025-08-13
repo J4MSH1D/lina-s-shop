@@ -20,7 +20,7 @@ const links = [
         class="container mx-auto h-100px flex flex-row items-center justify-between"
       >
         <div class="items-center flex flex-row gap-[40px]">
-          <nuxt-link to="/" class="text-3xl font-bold">Linda's.</nuxt-link>
+          <nuxt-link to="/" class="text-3xl font-bold">Lina's.</nuxt-link>
           <nuxt-link v-for="link in links" :to="link.link">
             {{ link.title }}
           </nuxt-link>
