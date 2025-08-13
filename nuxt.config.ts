@@ -3,11 +3,19 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
 
+  app: {
+    head: {
+      title: "Linda's fashion shop",
+    },
+  },
+
   devServer: {
     port: 7777,
   },
 
-  modules: ["@nuxtjs/tailwindcss"],
+  css: ["./app/assets/css/fons.css"],
+
+  modules: ["@nuxtjs/tailwindcss", "@nuxt/image"],
 
   tailwindcss: {
     config: {
@@ -15,6 +23,7 @@ export default defineNuxtConfig({
         extend: {
           container: {
             center: true,
+            padding: "10px 0",
           },
         },
       },
